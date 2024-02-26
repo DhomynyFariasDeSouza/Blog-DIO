@@ -1,0 +1,22 @@
+.cardPequeno {
+  width: 500px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.imagem{
+  width: 50%;
+  min-width: 200px;
+  margin-right: 10px;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  margin: 10px 0 10px;
+}
