@@ -1,18 +1,13 @@
 <div class="conteudo_bigCard">
   <div class="bigCard_foto">
-    <img src="https://www.svgrepo.com/show/508699/landscape-placeholder.svg"
-         alt=""
-         srcset=""
-          >
+    <img src="{{capaFoto}}">
   </div>
 
   <div class="bigCard_titulo">
-      <h1>Nova Versão Angular</h1>
+      <h1><a [routerLink]="['content',id]">{{cardTitulo}}</a> </h1>
   </div>
 
   <div class="bigCard_descricao">
-    <p>blablablaaçldjfajfoiajflkasdflçkasjfkasdflk
-      asjdsfkjaejfoaiwejfkassnvlkçasdffajfçaldjflk
-      açdljflakdjflkadsjfdsfjldjflkdjfajsdfjalsdfj</p>
+    <p>{{cardDesc}}</p>
   </div>
 </div>

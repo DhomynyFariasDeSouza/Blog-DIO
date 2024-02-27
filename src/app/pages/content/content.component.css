@@ -1,0 +1,22 @@
+.contentCaixa{
+  border: solid 1px white;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.capa > img {
+  width: 500px;
+  height: 300px;
+  border: 5px white solid;
+}
+
+.descricao > p {
+  color: gray;
+}
